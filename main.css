@@ -1,0 +1,160 @@
+.button_send 
+{
+
+    border: 0;
+    margin-left:20px;
+    width: 100px;
+    font-size: 16px;
+    line-height: 30px;
+    border-radius: 3px;
+    zoom: 1.5;
+    cursor: pointer;
+    white-space: nowrap;
+    outline: none;
+    vertical-align: top;
+    text-align: center;
+    text-decoration: none;
+    background: none;
+    background-color: #5181b8;
+    color: #fff;
+    box-sizing: border-box;
+    align-items: flex-start;
+    font: 400 13.3333px Arial;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    
+}
+
+.login_window
+{
+    margin-top: 100;
+    margin: 30px 0 20px;
+    padding: 25px;
+    position: relative;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 0 0 #d7d8db, 0 0 0 1px #e3e4;
+    display: block;
+    font-size: 13px;
+    width: 631px;
+    margin-top: 42px;
+    background-color: white;
+    position: relative;
+    text-align: left;
+    direction: ltr;
+    background: #edeef0;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif,"Noto Sans Armenian","Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic","Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao","Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai";
+    line-height: 1.154;
+    font-weight: 400;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+input
+{
+    margin-bottom: 15px;
+    /*width: 270px;*/
+    font-size: 14px;
+    padding: 6px 12px 8px;
+    box-sizing: border-box;
+    height: 35px;
+    border-radius: 3px;
+    color: #000;
+    margin: 0;
+    border: 1px solid #d3d9de;
+    background: #fff;
+    -webkit-appearance: none;
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif,"Noto Sans Armenian","Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic","Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao","Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai";
+    outline: none;
+    box-shadow: none;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    font: 400 13.3333px Arial;
+    direction: ltr;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+form
+{
+    padding: 150px 500px 100px;
+    display: block;
+    font-size: 13px;
+
+    width: 631px;
+    margin-top: 42px;
+    background-color: white;
+
+    text-align: left;
+    direction: ltr;
+    color: #000;
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif,"Noto Sans Armenian","Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic","Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao","Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai";
+    line-height: 1.154;
+    font-weight: 400;
+    -webkit-font-smoothing: subpixel-antialiased;
+
+
+}
+
+#inp
+{
+    display:  flex;
+     
+}
+
+.page_block
+{
+    padding: 150px 500px 100px;
+
+}
+
+.inv
+{
+    display:  none;
+    color: darkred;
+    margin-left:-20px;
+
+}
+
+.submiterror
+{
+    display:  flex;
+}
+
+bigtext
+{
+    display: none;
+}
+
+#ooo
+{
+    display: none;
+}
+
+input[type=checkbox]
+{
+  -webkit-appearance:checkbox;
+}
+
+#taxes
+{
+    display: none;
+}
+
+#taxesMsg
+{
+    display: none;
+}

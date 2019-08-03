@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <meta charset="utf-8" />
+        <title>Форма для ввода персональных данных</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+                integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+                crossorigin="anonymous">
+        <link href="main.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+        <form id="main_form">
+                <select id="yur" required def size="1">
+                        <option value="Выберите лицо">Выберите лицо</option>
+                        <option value="Физическое лицо">Физическое лицо</option>
+                        <option value="Юридическое лицо">Юридическое лицо</option>
+                </select>
+                <p></p>
+
+                <input id="face" required type="text" disabled value placeholder="Can not input">
+                <p></p>
+                <input required type="text" value="" value placeholder="Your ФИО" size=40>
+                <p></p>
+                <select id="ooo">
+                        <option value="ООО">ООО</option>
+                        <option value="ОАО">ОАО</option>
+                        <option value="ЗАО">ЗАО</option>
+                        <option value="ИП">ИП</option>
+                </select>
+                <p></p>
+                <input id="inn" required type="text" value placeholder="ИНН (10 или 12 символов)">
+                <p></p>
+                <div id="inp">
+                <input type="checkbox" id="taxes">
+                <p id="taxesMsg">Упрощенное налогооблажение</p>
+                </div>
+                <input id = "summa" required type="text" value placeholder="Сумма платежа(1234.56789..">
+                <p></p>
+                <input id="result" required type="text" disabled value placeholder="Итого">
+                <p></p>
+                <input type="submit" class="button_send"></input>
+        </form>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+                crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+                integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+                integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                crossorigin="anonymous"></script>
+        <script src="main.js"></script>
+
+
+</body>
+
+</html>
